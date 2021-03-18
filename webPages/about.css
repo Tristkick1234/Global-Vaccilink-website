@@ -1,0 +1,128 @@
+body {
+  font-family: "Lato", sans-serif;
+  font-size:20px;
+  margin:0;
+  min-width:449px;
+  background-color: #CDF7F6;
+}
+
+header{
+
+  height: 500px;
+  padding: 45px 0;
+  background-color: #227C9D;
+
+  
+}
+header h3{
+  color: #CDF7F6;
+  font-size: 1.5em;
+
+ 
+}
+span h3{
+  border-bottom-width: 200px;
+  border-bottom: 5px solid gray;
+  margin:100px;
+  width:50%;
+}
+
+
+span{
+  color:#CDF7F6;
+  font-size:2em;
+}
+
+.container{
+  max-height: 300px;
+  width: 50%;
+  margin:0 auto;
+}
+
+/*navigation*/
+/*holds navigation*/
+
+.nav_container{
+
+}
+/*The box that holds the info*/
+nav ul{
+  list-style:none;
+  overflow:hidden;
+  padding:0;
+  margin:0;
+}
+/*the info itself which is anything within li and itself*/
+nav li{
+  padding: 5px;
+  float: left;
+  font-size:1.5em;
+
+}
+.active{
+  background: #cccccc;
+
+}
+
+/*controls what you see inside the box*/
+
+nav a{
+  display:block;
+  text-decoration:none;
+  border: 2px solid #CDF7F6;
+  color:#000;
+  padding:8px;
+
+}
+
+/* link behavior*/
+}
+
+.active{
+  background: #cccccc;
+
+}
+
+nav a:hover { 
+  background-color:#BBE1B3;
+
+}
+
+
+.nav_section_tranport{
+  max-height: 300px;
+  width: 50%;
+  margin:0 auto;
+
+}
+.nav_section_tranport nav a{
+  border: 2px solid gray;
+}
+
+
+
+
+/* section and article information*/
+article{
+  margin: auto;
+  width:80%;
+
+}
+section{
+  background-color: #227C9D;
+  padding: 5px;
+  margin: 10px;
+}
+
+section p{
+  font-size:1.3em;
+  color: #CDF7F6;
+}
+#motto p{
+  text-align: center;
+}
+footer {
+  padding: 45px 0;
+  text-align: center;
+  background-color: #7F857F;
+}
